@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     int found = 0, error = 0, cores = 0, ramslots = 0, GBperRam = 0, GPUcount = 0, Aftercount = 0, AfterErr = 0;
-    string tmpname, opcode, name, type, input = "", FirstComp = "", SecondComp = "", type1, type2;
+    string tmpname, opcode, name, type, input, FirstComp, SecondComp, type1, type2;
     vector <PC*> PCList;
     PC* yeet = NULL;
     PC* tmp = NULL;
@@ -18,18 +18,12 @@ int main()
 
 
     while (input != "q") {
+        tmpname = opcode = SecondComp = FirstComp = name = type = "";
         i = 0;
         yeet = NULL;
-        type = "";
-        name = "";
         error = 0;
         found = 0;
-        FirstComp = "";
-        SecondComp = "";
-        tmpname = "";
 
-
-        opcode = "";
         getline(cin, input);
 
         for (i; input[i] != ' ' && i < input.length(); i++) {

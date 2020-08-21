@@ -10,11 +10,11 @@ This programme is used to create a dynamic list of elements, namely PCs, which c
 This programme uses input from the command line
 
 The available opcodes are
-    i) new,  creates a new PC of a given type and name eg. new HomePC myPC
-    ii) upgrade, upgrades the specs of a given PC eg. upgrade myPC 2 2 8
-    iii) delete, deletes a PC from the list eg. delete myPC
-    iv) print "PC type", prints every PC of the given type, along with their individual specs eg. print HomePC
-    v) compare "x_name" "y_name", compares 2 PCs by name, only for the fields where comparison is applicable, such as CPU cores, but not the OS or the model name eg. compare myPC yourPC
+    i) new,  creates a new PC of a given type and name eg. new HomePC myPC 
+    ii) upgrade, upgrades the specs of a given PC eg. upgrade myPC 2 2 8 
+    iii) delete, deletes a PC from the list eg. delete myPC 
+    iv) print "PC type", prints every PC of the given type, along with their individual specs eg. print HomePC 
+    v) compare "x_name" "y_name", compares 2 PCs by name, only for the fields where comparison is applicable, such as CPU cores, but not the OS or the model name eg. compare myPC yourPC 
 
 Examples of using each opcode:
 

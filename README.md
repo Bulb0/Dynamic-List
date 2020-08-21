@@ -18,12 +18,12 @@ The available opcodes are
 
 Examples of using each opcode:
 
-new HomePC myPC
-new GamingPC myGamingPC
-compare myPC myGamingPC
+new HomePC myPC //
+new GamingPC myGamingPC //
+compare myPC myGamingPC //
 
-myPC vs myGamingPC
-CPU cores: 2 < 6
-Total RAM: 4 < 16
-Storage: 256 < 1024
-Cost: 800 > 1300
+myPC vs myGamingPC //
+CPU cores: 2 < 6 //
+Total RAM: 4 < 16 //
+Storage: 256 < 1024 //
+Cost: 800 > 1300 //

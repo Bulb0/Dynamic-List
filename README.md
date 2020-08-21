@@ -7,9 +7,9 @@ Instructions:
 This programme is used to create a dynamic list of elements, namely PCs, which can be one of 3 types: HomePC, GamingPC, WorkstationPC. It can then perform some functions on the created list, said functions will be specified bellow.
 
 
-1)This programme uses input from the command line
+This programme uses input from the command line
 
-2) The available opcodes are
+The available opcodes are
     i) new,  creates a new PC of a given type and name (eg. new HomePC myPC)
     ii) upgrade, upgrades the specs of a given PC (eg. upgrade myPC 2 2 8)
     iii) delete, deletes a PC from the list (eg. delete myPC)

@@ -9,7 +9,7 @@ This programme is used to create a dynamic list of elements, namely PCs, which c
 
 1)This programme uses input from the command line
 
-2) The available opcodes are:
+2) The available opcodes are
     i) new,  creates a new PC of a given type and name (eg. new HomePC myPC)
     ii) upgrade, upgrades the specs of a given PC (eg. upgrade myPC 2 2 8)
     iii) delete, deletes a PC from the list (eg. delete myPC)
@@ -18,9 +18,9 @@ This programme is used to create a dynamic list of elements, namely PCs, which c
 
 3) Examples of using each opcode:
 
-> new HomePC myPC
-> new GamingPC myGamingPC
-> compare myPC myGamingPC
+new HomePC myPC
+new GamingPC myGamingPC
+compare myPC myGamingPC
 
 myPC vs myGamingPC
 CPU cores: 2 < 6
